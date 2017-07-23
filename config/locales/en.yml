@@ -20,6 +20,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  home: "Home"
+  help: "Help"
+  login: "Log in"
+  author: "Micheal Harlt"
+  about: "About"
+  new: "News"
+  app_name: "Ruby on Rails Tutorial Sample App"
   hello: "Hello world"
   rails_tuorials: "Ruby on Rails Tutorial"
   sample_app: "Sample App"
@@ -45,5 +52,8 @@ en:
       book: "book"
     home:
       title: "Home"
-      sentence_1: "This is the home page for the"
-      sentence_2: "sample application."
+      welcome: "Welcome to the Sample App"
+      sign_up: "Sign Up Now!"
+      home_page_show: "This is the home page for"
+      rails_app_title: "sample application."
+      img-alt: "Rails logo"
