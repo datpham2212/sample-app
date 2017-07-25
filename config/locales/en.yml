@@ -30,6 +30,8 @@ en:
   hello: "Hello world"
   rails_tuorials: "Ruby on Rails Tutorial"
   sample_app: "Sample App"
+  form_contain: "The form contain"
+  error: "error"
   static_pages:
     about:
       title: "About"
@@ -57,3 +59,7 @@ en:
       home_page_show: "This is the home page for"
       rails_app_title: "sample application."
       img-alt: "Rails logo"
+  users:
+    new:
+      sign_up: "Sign up"
+      welcome: "Welcome to the Sample App"
