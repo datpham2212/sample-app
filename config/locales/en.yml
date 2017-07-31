@@ -20,9 +20,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  error_login_message: "Invalid Email/Password"
+  profile: "Profile"
+  settings: "Settings"
+  account: "Account"
   home: "Home"
   help: "Help"
   login: "Log in"
+  logout: "Log out"
+  user: "Users"
   author: "Micheal Harlt"
   about: "About"
   new: "News"
@@ -63,3 +69,9 @@ en:
     new:
       sign_up: "Sign up"
       welcome: "Welcome to the Sample App"
+      create_acount: "Create my account"
+  sessions:
+    new:
+      login: "Log in"
+      new_user: "New user ?"
+      sign_up: "Sign up now !"

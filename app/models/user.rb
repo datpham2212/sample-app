@@ -9,5 +9,22 @@ class User < ApplicationRecord
                     uniqueness: {case_sensitive: false}
   validates :password, presence: true, length: {minimum: 6}, allow_nil: true
 
-  before_save{self.email = email.downcase if email}
+  before_save :email_downcase
+
+  private
+  def email_downcase
+    self.email = email.downcase
+  end
+
+  class << self
+    def digest string
+      cost =
+        if ActiveModel::SecurePassword.min_cost
+          BCrypt::Engine::MIN_COST
+        else
+          BCrypt::Engine.cost
+        end
+      BCrypt::Password.create string, cost: cost
+    end
+  end
 end
