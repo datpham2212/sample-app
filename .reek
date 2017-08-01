@@ -30,3 +30,9 @@ Attribute:
 "app/mailers":
   InstanceVariableAssumption:
     enabled: false
+
+TooManyStatements:
+  enabled: true
+  exclude:
+  - initialize
+  max_statements: 6
