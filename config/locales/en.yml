@@ -70,6 +70,7 @@ en:
       sign_up: "Sign up"
       welcome: "Welcome to the Sample App"
       create_acount: "Create my account"
+      remember_me: "Remember me on this computer"
   sessions:
     new:
       login: "Log in"
