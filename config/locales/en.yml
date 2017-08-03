@@ -21,6 +21,9 @@
 
 en:
   error_login_message: "Invalid Email/Password"
+  error_login: "Please login"
+  error_user: "User not exist!"
+  profile_updated: "Profile updated"
   profile: "Profile"
   settings: "Settings"
   account: "Account"
@@ -71,6 +74,18 @@ en:
       welcome: "Welcome to the Sample App"
       create_acount: "Create my account"
       remember_me: "Remember me on this computer"
+      save_changes: "Save Changes"
+    edit:
+      edit_user: "Edit user"
+      update_profile: "Update your profile"
+      save_changes: "Save Changes"
+      change: "change"
+      confirm: "Confirmation"
+    index:
+      all_users: "All users"
+      delete: "delete"
+      sure: "You sure ?"
+
   sessions:
     new:
       login: "Log in"
