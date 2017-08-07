@@ -97,6 +97,20 @@ en:
       updated: "Profile updated"
     destroy:
       user_deleted: "User deleted"
+    user:
+      delete: "delete"
+      you_sure: "You sure"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
+    show_follow:
+      micropost: "Microposts: "
+      view_my_profile: "View my profile"
   sessions:
     new:
       login: "Log in"
