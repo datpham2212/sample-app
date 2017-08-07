@@ -21,6 +21,7 @@
 
 en:
   forgot_password: "Forgot password"
+  should_be_less_than_5mb: "Should be less than 5MB"
   hi: "Hi"
   error_login_message: "Invalid Email/Password"
   error_login: "Please login"
@@ -148,3 +149,20 @@ en:
       password_expired: "Password reset has expired."
     get_user:
       invalid_email: "Invalid Email"
+  microposts:
+    micropost:
+      posted: "Posted "
+      ago: " ago"
+      delete: "delete"
+      you_sure: "you sure"
+    create:
+      micropost_created: "Micropost Created"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+  shared:
+    micropost_form:
+      compose_new_micropost: "Compose new micropost"
+      post: "post"
+    user_info:
+      view_my_profile: "View my profile"
+      micropost: "micropost"
