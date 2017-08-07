@@ -9,7 +9,6 @@ class PasswordResetsController < ApplicationController
 
   def create
     @user = User.find_by email: params[:password_reset][:email].downcase
-
     if user
       handle_valid_password_create
     else
