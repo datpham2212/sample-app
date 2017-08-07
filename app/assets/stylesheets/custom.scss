@@ -6,10 +6,12 @@ $white: #fff;
 $gray-border: #eaeaea;
 $gray3: #222;
 $gray4: #555;
+$blue: #0ff;
 $colorred: #f00;
 $uneditable-input: #bbb;
 $input-error-border: #a94442;
 $box-shadow-error-input: rgba(0, 0, 0, .075);
+$li-border: #e8e8e8;
 
 @mixin box-sizing {
   box-sizing: border-box;
@@ -169,6 +171,45 @@ aside {
   margin-top: 15px;
 }
 
+.stats {
+  margin-top: 0;
+  overflow: auto;
+  padding: 0;
+
+  a {
+    border-left: 1px solid $gray-lighter;
+    color: $gray;
+    float: left;
+    padding: 0 10px;
+
+    &:first-child {
+      border: 0;
+      padding-left: 0;
+    }
+
+    &:hover {
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+
+  strong {
+    display: block;
+  }
+}
+
+.user-avatars {
+  margin-top: 10px;
+  overflow: auto;
+
+  .gravatar {
+    margin: 1px;
+  }
+
+  a {
+    padding: 0;
+  }
+}
 // forms
 input,
 textarea,
@@ -225,5 +266,53 @@ select,
     overflow: auto;
     padding: 10px 0;
   }
+
+  &.follow {
+    padding: 0;
+  }
+}
+// microposts
+.microposts {
+  list-style: none;
+  padding: 0;
+
+  li {
+    border-top: 1px solid $li-border;
+    padding: 10px 0;
+  }
+
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+
+  .content {
+    display: block;
+    margin-left: 60px;
+
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+
+  .timestamp {
+    color: $gray-light;
+    display: block;
+    margin-left: 60px;
+  }
+
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
 }
 
+.picture {
+  margin-top: 10px;
+
+  input {
+    border: 0;
+  }
+}
